@@ -1,0 +1,17 @@
+<div class="app-container">
+    <div class="header-container">
+        <ul>
+            <li>
+                French <input style="cursor: pointer;" type="checkbox" [(ngModel)]="isFrench" (change)="checkValue(isFrench?true:false)" />
+            </li>
+        <!--    <li>
+                Dark Mode &nbsp; <input style="cursor: pointer;" type="checkbox" [(ngModel)]="isDark" (change)="checkBg(isDark?true:false)" />
+            </li> -->
+        </ul>
+    </div>
+
+    <div class="route-container">
+        <router-outlet></router-outlet>
+    </div>
+
+</div>

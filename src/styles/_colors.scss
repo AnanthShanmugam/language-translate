@@ -1,0 +1,73 @@
+$accent-color:#00b283;
+$accent-color-dark:#58d3b3;
+$accent-color-funny: yellow;
+
+$accent-color-hover: lighten(#00b283,10%);
+$accent-color-dark-hover: darken(#58d3b3,10%);
+$accent-color-funny-hover: green;
+
+$background-primary-color:#ffffff;
+$background-primary-color-dark:#101b33;
+$background-primary-color-funny:blue;
+
+$background-secondary-color:#e9eef4;
+$background-secondary-color-dark:#0e2546;
+$background-secondary-color-funny:red;
+
+$text-primary-color:#ffffff;
+$text-primary-color-dark:#ffffff;
+$text-primary-color-funny:#1298d7;
+
+$text-secondary-color: #868686;
+$text-secondary-color-dark: #bcc3cd;
+$text-secondary-color-funny:violet;
+
+$text-tertiary-color: #bfbfbf;
+$text-tertiary-color-dark: #bfbfbf;
+$text-tertiary-color-funny: yellowgreen;
+
+
+$link-default-color: $text-primary-color;
+$link-default-color-dark: $text-primary-color-dark;
+$link-default-color-funny: $text-primary-color-funny;
+
+$link-default-color-hover: lighten($text-primary-color,10%);
+$link-default-color-dark-hover: darken($text-primary-color-dark,10%);
+$link-default-color-funny-hover: darken($text-primary-color-funny,10%);
+
+
+
+$colors: (
+    --accent-color:($accent-color,$accent-color-dark),
+    --accent-color-hover:($accent-color-hover,$accent-color-dark-hover),
+
+    --background-primary-color:($background-primary-color,$background-primary-color-dark),
+    --background-secondary-color: ($background-secondary-color,$background-secondary-color-dark),
+
+    --text-primary-color:($text-primary-color,$text-primary-color-dark),
+    --text-secondary-color:($text-secondary-color,$text-secondary-color-dark),
+    --text-tertiary-color:($text-tertiary-color,$text-tertiary-color-dark),
+
+    --link-default-color:($link-default-color,$link-default-color-dark),
+    --link-default-color-hover:($link-default-color-hover,$link-default-color-dark-hover)
+        
+)
+
+
+// light colors
+
+
+//#fff
+//#4680ff
+//#535763
+//selected #fff
+
+
+
+// dark mode
+
+//#4680ff
+//#97a7c1
+
+//selected #fff
+

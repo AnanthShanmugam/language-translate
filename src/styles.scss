@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import 'styles/animations';
+@import 'styles/colors';
+@import 'styles/theme';
+
+
+div.card-box{
+    border:2px solid grey;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px grey;
+}
